@@ -1,0 +1,13 @@
+name = "SurfaceReactions"
+uuid = "59f5dcf9-29de-47f3-bbe3-a47d1f19a124"
+authors = ["Vinod Janardhanan"]
+version = "0.1.0"
+
+[compat]
+julia = "1.7.3"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
