@@ -3,7 +3,16 @@ uuid = "59f5dcf9-29de-47f3-bbe3-a47d1f19a124"
 authors = ["Vinod Janardhanan"]
 version = "0.1.0"
 
+[deps]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
+IdealGas = "7aa10a8e-8b87-4952-8d6b-aae44b8b139e"
+LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
+ReactionCommons = "3fc4dfc6-bd63-4703-97f2-4579ab7691c1"
+RxnHelperUtils = "58b8660e-aa37-4837-a287-8893ee0015f8"
+
 [compat]
+IdealGas = "0.1.1"
+RxnHelperUtils = "0.1.0"
 julia = "1.7.3"
 
 [extras]

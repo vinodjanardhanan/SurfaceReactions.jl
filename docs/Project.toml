@@ -1,3 +1,6 @@
 [deps]
+DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
 Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+IdealGas = "7aa10a8e-8b87-4952-8d6b-aae44b8b139e"
+LightXML = "9c8b4983-aa76-5018-a973-4c85ecc9e179"
 SurfaceReactions = "59f5dcf9-29de-47f3-bbe3-a47d1f19a124"
