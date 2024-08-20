@@ -103,9 +103,9 @@ version = "7.15.0"
 
 [[deps.ArrayLayouts]]
 deps = ["FillArrays", "LinearAlgebra"]
-git-tree-sha1 = "ce2ca959f932f5dad70697dd93133d1167cf1e4e"
+git-tree-sha1 = "0dd7edaff278e346eb0ca07a7e75c9438408a3ce"
 uuid = "4c555306-a7a7-4459-81d9-ec55ddd5c99a"
-version = "1.10.2"
+version = "1.10.3"
 weakdeps = ["SparseArrays"]
 
     [deps.ArrayLayouts.extensions]
@@ -116,9 +116,9 @@ uuid = "56f22d72-fd6d-98f1-02f0-08ddc0907c33"
 
 [[deps.BandedMatrices]]
 deps = ["ArrayLayouts", "FillArrays", "LinearAlgebra", "PrecompileTools"]
-git-tree-sha1 = "71f605effb24081b09cae943ba39ef9ca90c04f4"
+git-tree-sha1 = "88d4a97082bc70fad702f42302a8bd21079b8963"
 uuid = "aae01518-5342-5314-be14-df237901396f"
-version = "1.7.2"
+version = "1.7.3"
 weakdeps = ["SparseArrays"]
 
     [deps.BandedMatrices.extensions]
@@ -489,9 +489,9 @@ uuid = "7b1f6079-737a-58dc-b8bc-7a2ca5c1b5ee"
 
 [[deps.FillArrays]]
 deps = ["LinearAlgebra"]
-git-tree-sha1 = "0653c0a2396a6da5bc4766c43041ef5fd3efbe57"
+git-tree-sha1 = "fd0002c0b5362d7eb952450ad5eb742443340d6e"
 uuid = "1a297f60-69ca-5386-bcde-b61e274b549b"
-version = "1.11.0"
+version = "1.12.0"
 weakdeps = ["PDMats", "SparseArrays", "Statistics"]
 
     [deps.FillArrays.extensions]
@@ -596,9 +596,9 @@ version = "0.2.5"
 
 [[deps.IdealGas]]
 deps = ["RxnHelperUtils"]
-git-tree-sha1 = "f1a62263d3c43f5f6d43a0f410ad3d5a66fe39d8"
+git-tree-sha1 = "7d42c4f519587638c532ce568def98d00700e50b"
 uuid = "7aa10a8e-8b87-4952-8d6b-aae44b8b139e"
-version = "0.1.4"
+version = "0.1.5"
 
 [[deps.IfElse]]
 git-tree-sha1 = "debdd00ffef04665ccbb3e150747a77560e8fad1"
@@ -1124,9 +1124,9 @@ version = "1.6.0"
 
 [[deps.ReactionCommons]]
 deps = ["RxnHelperUtils"]
-git-tree-sha1 = "315a2cf6f3faa2db59ce3706e9d7667f42f03003"
+git-tree-sha1 = "5ce5466c2fab84f4dc254d4f6512a027a6d710ec"
 uuid = "3fc4dfc6-bd63-4703-97f2-4579ab7691c1"
-version = "0.1.8"
+version = "0.1.9"
 
 [[deps.RecipesBase]]
 deps = ["PrecompileTools"]
@@ -1209,9 +1209,9 @@ version = "0.5.13"
 
 [[deps.RxnHelperUtils]]
 deps = ["LightXML", "Printf"]
-git-tree-sha1 = "524baeadcc366088c41b0380b0189e8007fa3145"
+git-tree-sha1 = "87be5f206c7d108310cdb28243b6fe8b3047bf18"
 uuid = "58b8660e-aa37-4837-a287-8893ee0015f8"
-version = "0.1.8"
+version = "1.0.0"
 
 [[deps.SHA]]
 uuid = "ea8e919c-243c-51af-8825-aaa63cd721ce"
@@ -1468,7 +1468,7 @@ version = "5.2.2+0"
 deps = ["DifferentialEquations", "IdealGas", "LightXML", "ReactionCommons", "RxnHelperUtils"]
 path = ".."
 uuid = "59f5dcf9-29de-47f3-bbe3-a47d1f19a124"
-version = "0.1.2"
+version = "0.1.4"
 
 [[deps.SymbolicIndexingInterface]]
 deps = ["Accessors", "ArrayInterface", "RuntimeGeneratedFunctions", "StaticArraysCore"]
