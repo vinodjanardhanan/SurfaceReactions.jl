@@ -14,7 +14,7 @@ RxnHelperUtils = "58b8660e-aa37-4837-a287-8893ee0015f8"
 DifferentialEquations = "7.13.0"
 IdealGas = "0.1.9"
 LightXML = "0.9.1"
-ReactionCommons = "0.2.9"
+ReactionCommons = "0.2.2"
 RxnHelperUtils = "1.0.3"
 julia = "1.9.1"
 
