@@ -1,7 +1,7 @@
 name = "SurfaceReactions"
 uuid = "59f5dcf9-29de-47f3-bbe3-a47d1f19a124"
 authors = ["Vinod Janardhanan"]
-version = "0.1.6"
+version = "0.1.7"
 
 [deps]
 DifferentialEquations = "0c46a032-eb83-5123-abaf-570d42b7fbaa"
@@ -12,7 +12,7 @@ RxnHelperUtils = "58b8660e-aa37-4837-a287-8893ee0015f8"
 
 [compat]
 DifferentialEquations = "7.13.0"
-IdealGas = "0.1.9"
+IdealGas = "0.2.1"
 LightXML = "0.9.1"
 ReactionCommons = "0.2.2"
 RxnHelperUtils = "1.0.3"
